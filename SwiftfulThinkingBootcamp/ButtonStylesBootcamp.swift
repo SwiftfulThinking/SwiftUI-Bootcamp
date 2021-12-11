@@ -11,12 +11,24 @@ struct ButtonStylesBootcamp: View {
     var body: some View {
         VStack {
             
+            Button {
+                
+            } label: {
+                Text("Button Title")
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.roundedRectangle(radius: 20))
+            .controlSize(.large)
+
+            
             Button("Button Title") {
                 
             }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
-//            .buttonStyle(.plain)
+            .buttonStyle(.plain)
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
 
@@ -26,7 +38,7 @@ struct ButtonStylesBootcamp: View {
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .controlSize(.regular)
-//            .buttonStyle(.bordered)
+            .buttonStyle(.bordered)
             .buttonStyle(.borderedProminent)
 
             Button("Button Title") {
@@ -55,7 +67,7 @@ struct ButtonStylesBootcamp: View {
 struct ButtonStylesBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         ButtonStylesBootcamp()
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
             
     }
 }

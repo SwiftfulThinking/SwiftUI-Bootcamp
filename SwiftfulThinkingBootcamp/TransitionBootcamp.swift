@@ -16,7 +16,9 @@ struct TransitionBootcamp: View {
             
             VStack {
                 Button("BUTTON") {
-                    showView.toggle()
+                    withAnimation(.easeInOut) { // <- animation here
+                        showView.toggle()
+                    }
                 }
                 Spacer()
             }
@@ -28,7 +30,6 @@ struct TransitionBootcamp: View {
                         insertion: .move(edge: .bottom),
                         removal: AnyTransition.opacity.animation(.easeInOut)
                     ))
-                    .animation(.easeInOut)
             }
             
             
