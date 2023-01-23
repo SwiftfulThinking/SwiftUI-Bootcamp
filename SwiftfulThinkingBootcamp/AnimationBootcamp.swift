@@ -19,9 +19,11 @@ struct AnimationBootcamp: View {
             Spacer()
             RoundedRectangle(cornerRadius: isAnimated ? 50 : 25)
                 .fill(isAnimated ? Color.red : Color.green)
-                .animation(Animation
-                            .default
-                            .repeatForever(autoreverses: true))
+                .animation(
+                    .default
+                    .repeatForever(autoreverses:true),
+                    value: isAnimated
+                )
                 .frame(
                     width: isAnimated ? 100 : 300,
                     height: isAnimated ? 100 : 300)
