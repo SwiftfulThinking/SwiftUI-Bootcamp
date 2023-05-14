@@ -28,7 +28,7 @@ struct DatePickerBootcamp: View {
             //DatePicker("Select a Date", selection: $selectedDate)
             //DatePicker("Select a date", selection: $selectedDate, displayedComponents: [.date, .hourAndMinute])
             DatePicker("Select a date", selection: $selectedDate, in: startingDate...endingDate, displayedComponents: [.date])
-                .accentColor(Color.red)
+                .tint(Color.red)
                 .datePickerStyle(
                     CompactDatePickerStyle()
                     //GraphicalDatePickerStyle()
