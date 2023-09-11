@@ -73,6 +73,13 @@
 		02F9DA3925C4A100003772CC /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3825C4A100003772CC /* ContextMenuBootcamp.swift */; };
 		02F9DA3C25C4AEF9003772CC /* TextfieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3B25C4AEF9003772CC /* TextfieldBootcamp.swift */; };
 		02F9DA3F25C4C7A9003772CC /* TextEditorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3E25C4C7A9003772CC /* TextEditorBootcamp.swift */; };
+		02FD65E42A145C7D000AEC44 /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65E32A145C7D000AEC44 /* NavigationStackBootcamp.swift */; };
+		02FD65E62A1463A0000AEC44 /* ToolbarBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65E52A1463A0000AEC44 /* ToolbarBootcamp.swift */; };
+		02FD65E82A146987000AEC44 /* ResizableSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65E72A146987000AEC44 /* ResizableSheetBootcamp.swift */; };
+		02FD65EA2A146F22000AEC44 /* SafeAreaInsetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65E92A146F22000AEC44 /* SafeAreaInsetBootcamp.swift */; };
+		02FD65EC2A16EB39000AEC44 /* GroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65EB2A16EB39000AEC44 /* GroupBootcamp.swift */; };
+		02FD65F02A16F626000AEC44 /* AnimationUpdatedBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65EF2A16F626000AEC44 /* AnimationUpdatedBootcamp.swift */; };
+		02FD65F22A16F93B000AEC44 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65F12A16F93B000AEC44 /* MenuBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +151,13 @@
 		02F9DA3825C4A100003772CC /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		02F9DA3B25C4AEF9003772CC /* TextfieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldBootcamp.swift; sourceTree = "<group>"; };
 		02F9DA3E25C4C7A9003772CC /* TextEditorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBootcamp.swift; sourceTree = "<group>"; };
+		02FD65E32A145C7D000AEC44 /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
+		02FD65E52A1463A0000AEC44 /* ToolbarBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBootcamp.swift; sourceTree = "<group>"; };
+		02FD65E72A146987000AEC44 /* ResizableSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetBootcamp.swift; sourceTree = "<group>"; };
+		02FD65E92A146F22000AEC44 /* SafeAreaInsetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetBootcamp.swift; sourceTree = "<group>"; };
+		02FD65EB2A16EB39000AEC44 /* GroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBootcamp.swift; sourceTree = "<group>"; };
+		02FD65EF2A16F626000AEC44 /* AnimationUpdatedBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUpdatedBootcamp.swift; sourceTree = "<group>"; };
+		02FD65F12A16F93B000AEC44 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +252,13 @@
 				02F8BE3C2741A9C4007D45BC /* BadgesBootcamp.swift */,
 				02F8BE3E2741AD53007D45BC /* FocusStateBootcamp.swift */,
 				02F8BE402741B493007D45BC /* SubmitTextFieldBootcamp.swift */,
+				02FD65E32A145C7D000AEC44 /* NavigationStackBootcamp.swift */,
+				02FD65E52A1463A0000AEC44 /* ToolbarBootcamp.swift */,
+				02FD65E72A146987000AEC44 /* ResizableSheetBootcamp.swift */,
+				02FD65E92A146F22000AEC44 /* SafeAreaInsetBootcamp.swift */,
+				02FD65EB2A16EB39000AEC44 /* GroupBootcamp.swift */,
+				02FD65EF2A16F626000AEC44 /* AnimationUpdatedBootcamp.swift */,
+				02FD65F12A16F93B000AEC44 /* MenuBootcamp.swift */,
 				026094EE25B0DCD80030E091 /* Assets.xcassets */,
 				026094F325B0DCD80030E091 /* Info.plist */,
 				026094F025B0DCD80030E091 /* Preview Content */,
@@ -346,19 +367,25 @@
 				026FB47D25B79D57005B3661 /* PaddingAndSpacerBootcamp.swift in Sources */,
 				02F9DA3925C4A100003772CC /* ContextMenuBootcamp.swift in Sources */,
 				0260952825B266B40030E091 /* ColorsBootcamp.swift in Sources */,
+				02FD65F22A16F93B000AEC44 /* MenuBootcamp.swift in Sources */,
 				026FB4AE25BA525A005B3661 /* ExtractSubviewsBootcamp.swift in Sources */,
 				026FB46C25B65D8D005B3661 /* FrameBootcamp.swift in Sources */,
 				026FB4AB25BA47D1005B3661 /* ExtractedFunctionsBootcamp.swift in Sources */,
 				02D7F15325E6FC4F008FA82D /* IfLetGuardBootcamp.swift in Sources */,
+				02FD65EA2A146F22000AEC44 /* SafeAreaInsetBootcamp.swift in Sources */,
 				026FB48325B8BEAB005B3661 /* InitializerBootcamp.swift in Sources */,
 				026FB51325BB7FB9005B3661 /* TernaryBootcamp.swift in Sources */,
 				02F8BE37274184A8007D45BC /* TextSelectionBootcamp.swift in Sources */,
 				02F9DA3225C37AC6003772CC /* AlertBootcamp.swift in Sources */,
+				02FD65F02A16F626000AEC44 /* AnimationUpdatedBootcamp.swift in Sources */,
+				02FD65E42A145C7D000AEC44 /* NavigationStackBootcamp.swift in Sources */,
 				0260952525B253960030E091 /* ShapesBootcamp.swift in Sources */,
 				026FB4A125BA0838005B3661 /* ButtonsBootcamp.swift in Sources */,
 				0299CD3A25ED4A700098C0DC /* IntroView.swift in Sources */,
 				026FB51925BBA287005B3661 /* AnimationTimingBootcamp.swift in Sources */,
 				02ECC14B25CDD1C00067FF2B /* PickerBootcamp.swift in Sources */,
+				02FD65E62A1463A0000AEC44 /* ToolbarBootcamp.swift in Sources */,
+				02FD65E82A146987000AEC44 /* ResizableSheetBootcamp.swift in Sources */,
 				026FB49925B9E09E005B3661 /* SafeAreaBootcamp.swift in Sources */,
 				026094ED25B0DCD40030E091 /* ContentView.swift in Sources */,
 				026FB48625B8CEC5005B3661 /* ForEachBootcamp.swift in Sources */,
@@ -368,6 +395,7 @@
 				02ECC14825CDC2F20067FF2B /* ToggleBootcamp.swift in Sources */,
 				02F8BE3327417B85007D45BC /* AsyncImageBoocamp.swift in Sources */,
 				02D7F19825E84EDC008FA82D /* ViewModelBootcamp.swift in Sources */,
+				02FD65EC2A16EB39000AEC44 /* GroupBootcamp.swift in Sources */,
 				02D1340525BF436B0087A0C2 /* TransitionBootcamp.swift in Sources */,
 				02D7F1A125E9BB85008FA82D /* AppStorageBootcamp.swift in Sources */,
 				02D7F15025E6EE09008FA82D /* OnAppearBootcamp.swift in Sources */,
@@ -528,7 +556,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinkingBootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftfulThinkingBootcamp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,7 +579,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinkingBootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftfulThinkingBootcamp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

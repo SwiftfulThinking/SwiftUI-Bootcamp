@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(*, introduced: 13.0, deprecated: 15.0, message: "Use AnimationUpdatedBootcamp instead.")
 struct AnimationBootcamp: View {
     
     @State var isAnimated: Bool = false
